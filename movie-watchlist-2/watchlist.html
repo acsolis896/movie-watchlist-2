@@ -1,0 +1,30 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+         <!-- Font Awesome CDN -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+         <nav id="header">
+            <h1>My Watchlist</h1>
+            <a href="index.html" id="index-btn">Search for movies</a>
+        </nav>
+        
+        <div id="explore-placeholder">
+            <p>Your watching list is empty</p>
+            <button id="return-btn">
+            <a href="./index.html">
+                <i class="fa-solid fa-circle-plus"></i>
+                Let's add some movies!
+            </a>
+            </button>
+        </div>
+        
+        <div id="display-list">
+            <!-- watchlist movies render here -->
+        </div>
+        
+        <script src="watchlist.js"></script>
+    </body>
+</html>
